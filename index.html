@@ -1,9 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Safina Content Tutor</title>
+<title>Webpage with Frames</title>
 </head>
-<body>
-    <h1>Content Tutor</h1>
-</body>
+
+<frameset rows="10%, 80%">
+
+    <frame name="title" src="#">
+        <h1>Chat Interface</h1>
+    </frame>
+    
+    <frameset cols="25%, 75%">
+    
+        <frame name="left" src="#">
+            <button>Link</button>
+        </frame>
+
+        <frame name="right">
+            <p>Human: Hello</p>
+            <p>AI: Hi there!</p>
+            
+            <form>
+              <textarea rows="2" cols="60" name="message"></textarea>
+              <br/>
+              <input type="submit" value="Send">
+            </form>
+            
+        </frame>
+    
+    </frameset>
+
+</frameset>
+
 </html>
